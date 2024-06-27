@@ -125,15 +125,15 @@ namespace task_26_64
 
             //q8
 
-                string[] different = { "ahmad", "onizat", "love sleep", "love coffee so much", "and this is good" };
-            Console.WriteLine(different);
+            string[] different = { "ahmad", "onizat", "love sleep", "love coffee so much", "and this is good" };
+            Console.WriteLine(different[0].Substring(0, 5));
+            Console.WriteLine(different[1].Substring(0, 5));
+            Console.WriteLine(different[2].Substring(0, 5));
+            Console.WriteLine(different[3].Substring(0, 5));
+            Console.WriteLine(different[4].Substring(0, 5));
 
 
-            int arrayLength = 5;
-            foreach (string differents in different)
-            {
-                Console.WriteLine(differents.PadRight(arrayLength));
-            }
+
 
 
         }
