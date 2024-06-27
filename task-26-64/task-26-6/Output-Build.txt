@@ -1,0 +1,9 @@
+﻿Build started at 09:12 م...
+1>------ Build started: Project: task-26-64, Configuration: Debug Any CPU ------
+1>C:\Users\Orange\source\repos\task-26-64\task-26-64\Program.cs(58,17,58,24): warning CS0162: Unreachable code detected
+1>C:\Users\Orange\source\repos\task-26-64\task-26-64\Program.cs(62,17,62,24): warning CS0162: Unreachable code detected
+1>C:\Users\Orange\source\repos\task-26-64\task-26-64\Program.cs(66,17,66,24): warning CS0162: Unreachable code detected
+1>C:\Users\Orange\source\repos\task-26-64\task-26-64\Program.cs(74,17,74,24): warning CS0162: Unreachable code detected
+1>  task-26-64 -> C:\Users\Orange\source\repos\task-26-64\task-26-64\bin\Debug\task-26-64.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build completed at 09:12 م and took 00.179 seconds ==========
