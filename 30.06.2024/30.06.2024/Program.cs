@@ -26,6 +26,7 @@ namespace _30._06._2024
             Phone = phone;
         }
     }
+   
 
 
     internal class Program
@@ -39,80 +40,81 @@ namespace _30._06._2024
         static void Main(string[] args)
         {
             //q1
-            //Console.WriteLine("task-1");
-            //Console.WriteLine("enter a number");
-            //double number1 = Convert.ToDouble(Console.ReadLine());
-            //Console.WriteLine("enter more numbers");
-            //double number2 = Convert.ToDouble(Console.ReadLine());
-            //double number3 = Convert.ToDouble(Console.ReadLine());
-            //double number4 = Convert.ToDouble(Console.ReadLine());
-            //double number5 = Convert.ToDouble(Console.ReadLine());
-            //double number6 = Convert.ToDouble(Console.ReadLine());
-            //double number7 = Convert.ToDouble(Console.ReadLine());
-            //double number8 = Convert.ToDouble(Console.ReadLine());
-            //double number9 = Convert.ToDouble(Console.ReadLine());
-            //double number10 = Convert.ToDouble(Console.ReadLine());
-            //double total = (number1 + number2 + number3 + number4 + number5 + number6 + number7 + number8 + number9 + number10);
-            //Console.WriteLine(total);
-            //double Average = (number1 + number2 + number3 + number4 + number5 + number6 + number7 + number8 + number9 + number10) / 3;
-            //Console.WriteLine(Average);
-            //Console.WriteLine("......................................................");
+            Console.WriteLine("task-1");
+            Console.WriteLine("enter a number");
+            double number1 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("enter more numbers");
+            double number2 = Convert.ToDouble(Console.ReadLine());
+            double number3 = Convert.ToDouble(Console.ReadLine());
+            double number4 = Convert.ToDouble(Console.ReadLine());
+            double number5 = Convert.ToDouble(Console.ReadLine());
+            double number6 = Convert.ToDouble(Console.ReadLine());
+            double number7 = Convert.ToDouble(Console.ReadLine());
+            double number8 = Convert.ToDouble(Console.ReadLine());
+            double number9 = Convert.ToDouble(Console.ReadLine());
+            double number10 = Convert.ToDouble(Console.ReadLine());
+            double total = (number1 + number2 + number3 + number4 + number5 + number6 + number7 + number8 + number9 + number10);
+            Console.WriteLine(total);
+            double Average = (number1 + number2 + number3 + number4 + number5 + number6 + number7 + number8 + number9 + number10) / 3;
+            Console.WriteLine(Average);
+            Console.WriteLine("......................................................");
 
 
 
             //q2
-            //Console.WriteLine("task-2");
-            //Console.WriteLine("enter a number");
-            //int num1 = Convert.ToInt32(Console.ReadLine());
-            //int num2 = Convert.ToInt32(Console.ReadLine());
-            //int num3= Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("task-2");
+            Console.WriteLine("enter a number");
+            int num1 = Convert.ToInt32(Console.ReadLine());
+            int num2 = Convert.ToInt32(Console.ReadLine());
+            int num3 = Convert.ToInt32(Console.ReadLine());
 
-            //for (int i = 0; i < 10; i++)
-            //{
-            //    if (i == num1)
-            //    {
-            //        Console.WriteLine(num1);
-            //        Console.WriteLine(i * i * i);
-            //    }
-            //    else if (i == num2)
-            //    {
-            //        Console.WriteLine(num2);
-            //        Console.WriteLine(i * i * i);
+            for (int i = 0; i < 10; i++)
+            {
+                if (i == num1)
+                {
+                    Console.WriteLine(num1);
+                    Console.WriteLine(i * i * i);
+                }
+                else if (i == num2)
+                {
+                    Console.WriteLine(num2);
+                    Console.WriteLine(i * i * i);
 
-            //    }
-            //    else if (i == num3)
-            //    {
-            //        Console.WriteLine(num3);
-            //        Console.WriteLine(i * i * i);
+                }
+                else if (i == num3)
+                {
+                    Console.WriteLine(num3);
+                    Console.WriteLine(i * i * i);
 
-            //    };
+                };
 
-            //}
-            //Console.WriteLine("................");
+            }
+            Console.WriteLine("................");
 
-            //Console.WriteLine("Task - 3");
+            Console.WriteLine("Task - 3");
 
-            //double[] years = { 1763, 1972, 1925, 1916, 1984, 1124, 1950, 2020 };
-            //foreach (double year in years) { 
-            //    if (year > 1950)
-            //    {
-            //        Console.WriteLine(year); 
-            //    } 
-            //};
-            //Console.WriteLine("........................");
+            int[] years = { 1763, 1972, 1925, 1916, 1984, 1124, 1950, 2020 };
+            foreach (double year in years)
+            {
+                if (year > 1950)
+                {
+                    Console.WriteLine(year);
+                }
+            };
+            Console.WriteLine("........................");
 
             //q4
 
-            //Console.WriteLine("enter a year");
-            //myMethod();
-            //Console.WriteLine("....................");
+            Console.WriteLine("enter a year");
+            myMethod();
+            Console.WriteLine("....................");
 
 
             //q5
-            //Console.WriteLine("task-5");
-            //q5 information = new q5(20, "male", "Ali", "info@gmail.com", 200088866, 0770000000);
-            //Console.WriteLine(information.Age+ " "+information.Gender+ " "+information.Name+ " "+information.Email+" "+ information.ID+ " "+information.Phone);
-            //Console.WriteLine(".......................");
+            Console.WriteLine("task-5");
+            q5 information = new q5(20, "male", "Ali", "info@gmail.com", 200088866, 0770000000);
+            Console.WriteLine(information.Age + " " + information.Gender + " " + information.Name + " " + information.Email + " " + information.ID + " " + information.Phone);
+            Console.WriteLine(".......................");
 
 
 
