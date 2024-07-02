@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _01._07._2024
 {
-    //task-1& 2
+    //task-1 & 2
     public class Car
     {
         private bool engin;
@@ -81,11 +81,20 @@ namespace _01._07._2024
 
     }
 
-    public class BMW : Car 
+    public class BMW : Car
     {
 
         public BMW(string make, int year, string type, int price, string model, string palletNo, string color)
-            : base(make, year, type, price, model, palletNo, color);
+            : base(make, year, type, price, model, palletNo, color)
+        {
+            Console.WriteLine($"Make: {Make}");
+            Console.WriteLine($"Year: {Year}");
+            Console.WriteLine($"Type: {Type}");
+            Console.WriteLine($"Price: {Price}");
+            Console.WriteLine($"Model: {Model}");
+            Console.WriteLine($"PalletNo: {PalletNo}");
+            Console.WriteLine($"Color: {Color}");
+        }
 
     };
     internal class Program
@@ -108,8 +117,12 @@ namespace _01._07._2024
             car.StopEngine(); 
 
             Console.WriteLine("......................");
-            
+            Console.WriteLine("task-4&5");
+            BMW bm = new BMW("BMW", 2020, "M4", 40000, "Gts", "1886849", "Mat Black");
+            //Console.WriteLine(bm);
+            Console.WriteLine(".....................");
+
         }
-      }
+    }
     }
 
