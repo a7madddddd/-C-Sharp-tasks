@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace _01._07._2024
 {
@@ -78,12 +75,10 @@ namespace _01._07._2024
                 Console.WriteLine("engine is already stopped.");
             }
         }
-
     }
 
     public class BMW : Car
     {
-
         public BMW(string make, int year, string type, int price, string model, string palletNo, string color)
             : base(make, year, type, price, model, palletNo, color)
         {
@@ -95,7 +90,6 @@ namespace _01._07._2024
             Console.WriteLine($"PalletNo: {PalletNo}");
             Console.WriteLine($"Color: {Color}");
         }
-
     };
     internal class Program
     {
@@ -118,7 +112,7 @@ namespace _01._07._2024
 
             Console.WriteLine("......................");
             Console.WriteLine("task-4&5");
-            BMW bm = new BMW("BMW", 2020, "M4", 40000, "Gts", "1886849", "Mat Black");
+            BMW bm = new BMW("BMW", 2020, "M4", 32000, "Gts", "1886849", "Mat Black");
             //Console.WriteLine(bm);
             Console.WriteLine(".....................");
 
