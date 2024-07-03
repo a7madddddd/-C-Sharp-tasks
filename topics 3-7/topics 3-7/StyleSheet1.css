@@ -1,0 +1,13 @@
+﻿body {
+}
+#form1 {
+    margin:5%;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+}
+.container{
+    /*width: 50%;*/
+}

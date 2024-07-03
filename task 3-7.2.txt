@@ -1,0 +1,5 @@
+﻿Build started at 12:22 ص...
+1>------ Build started: Project: tasks 3-7, Configuration: Debug Any CPU ------
+1>  tasks 3-7 -> C:\Users\Orange\source\repos\NewRepo\tasks 3-7\tasks 3-7\bin\tasks 3-7.dll
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build completed at 12:22 ص and took 00.177 seconds ==========

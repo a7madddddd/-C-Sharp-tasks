@@ -1,0 +1,10 @@
+﻿body {
+}
+.con{
+    display:flex;
+    justify-content:space-evenly
+}
+.con div{
+    font-size :2em;
+    text-align:center;
+}
